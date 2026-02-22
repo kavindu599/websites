@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ceylon Cravings-Contact Us</title>
+    <link rel="icon" href="images/icon.ico">
+</head>
+
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #b4adad; color: #333;">
+
+
+    <header style="background-color: #004466; color: white; padding: 1rem; text-align: center;">
+        <h1 style="margin: 0;">Ceylon Cravings</h1>
+        <br>
+        <nav>
+            <ul style="list-style: none; padding: 0; margin: 0; display: flex; justify-content: center; gap: 1rem;">
+                <li><a href="homepage.html" style="color: white; text-decoration: none;">Home</a></li>
+                <li><a href="about.html" style="color: white; text-decoration: none;">About Us</a></li>
+                <li><a href="menu.html" style="color: white; text-decoration: none;">Menu</a></li>
+                <li><a href="contact.html" style="color: white; text-decoration: none;">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main
+        style="display: flex; max-width: 1000px; margin: 2rem auto; padding: 2rem; background-color: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <!-- Form Section -->
+        <section style="flex: 1; margin-right: 2rem;">
+            <h2 style="color: #004466;">Contact Us</h2>
+            <form>
+
+                <label for="fullname" style="display: block; margin: 1rem 0 0.5rem;">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required
+                    style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px;">
+
+
+                <label for="age" style="display: block; margin: 1rem 0 0.5rem;">Age:</label>
+                <input type="text" id="age" name="age" placeholder="Enter your age" required
+                    style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px;">
+
+
+                <label for="birthdate" style="display: block; margin: 1rem 0 0.5rem;">Birthdate:</label>
+                <input type="date" id="birthdate" name="birthdate" required
+                    style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px;">
+
+
+                <label style="display: block; margin: 1rem 0 0.5rem;">Gender:</label>
+                <div style="margin-bottom: 1rem;">
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female" required style="margin-left: 1rem;">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other" required style="margin-left: 1rem;">
+                    <label for="other">Other</label>
+                </div>
+
+
+                <label for="email" style="display: block; margin: 1rem 0 0.5rem;">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required
+                    style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px;">
+
+
+                <label for="contact" style="display: block; margin: 1rem 0 0.5rem;">Contact Number:</label>
+                <input type="tel" id="contact" name="contact" placeholder="Enter your contact number" required
+                    style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px;">
+
+
+                <button type="submit"
+                    style="margin-top: 1rem; padding: 0.75rem 1.5rem; border: none; background-color: #004466; color: white; border-radius: 4px; cursor: pointer;">
+                    Submit
+                </button>
+            </form>
+        </section>
+
+
+        <aside style="flex: 1; text-align: center;">
+            <img src="images/contact .jpg" alt="Contact Us"
+                style="border-radius: 8px; max-width: 100%; height: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        </aside>
+    </main>
+
+
+    <footer style="background-color: #004466; color: white; padding: 1rem; text-align: center;">
+        <p>&copy; 2025 Ceylon Cravings</p>
+    </footer>
+
+</body>
+
+</html>
